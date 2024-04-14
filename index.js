@@ -4,6 +4,7 @@ function isPalindrome(word) {
   if (character.length < 2) {
     return true;
   }
+
   var firstLetter = character.shift(),
     lastLetter = character.pop();
 
@@ -27,13 +28,13 @@ function isPalindrome(word) {
 /*
   Add written explanation of your solution here
 */
-// function isPalimdrome takes in a string as an argument 
+// function isPalimdrome takes in a string as an argument
 // character splits the word up into characters
+//the if statment says if the length of the word is less than 2 characters, return true 
 // firstLetter takes the first letter of word and seperates it into its own array
 // lastLetter takes the last letter of word and eperates it into its own array
-//the 1st if statment says if the first and last letter arent the same, return false
-//the 2nd if statment says if the length of the characters is less than 2 characters, return true
-//the function isPalindrome returns the characters put back together into a string
+//the if statment says if the first and last letter arent the same, return false
+//the function isPalindrome returns  a boolean
 
 
 // You can run `node index.js` to view these console logs
